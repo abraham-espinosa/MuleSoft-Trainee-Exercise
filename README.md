@@ -1,2 +1,2 @@
-# MuleSoft-Trainee-Exercise-
+# MuleSoft-Trainee-Exercise
 API Developer Trainee
