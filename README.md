@@ -6,7 +6,13 @@ It is required:
 * CloudHub account - https://anypoint.mulesoft.com/login/signup
 * Previous code from `exercise2/global-elements-properties` branch
 
-# Set Up Global Elements
+## Table Content 
+1. [Set Up Global Elements](#1-Set-Up-Global-Elements)
+2. [Encrypt Properties ](#2-Encrypt-Properties)
+3. [Test the Application Locally](#3-Test-the-Application-Locally)
+4. [Deploy to CloudHub](#4-Deploy-to-CloudHub)
+
+# 1. Set Up Global Elements
 * Go to the package explorer and right-click on **src/main/resources** > **New** > **File**, then enter `local.secure.properties` as the file name, click on Finish  
 * Go to the package explorer and right-click on **src/main/resources** > **New** > **File**. then enter `dev.secure.properties` as the file name, click on Finish  
 * Add the following properties in the `local.secure.properties` file:  
@@ -42,7 +48,7 @@ output application/java
 ```  
 ![8](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/187ca6ab-b98c-42b4-879d-825e70a085e8)  
  
-## Encrypt Properties 
+## 2. Encrypt Properties 
 * Go to https://docs.mulesoft.com/mule-runtime/latest/secure-configuration-properties#secure_props_tool **Mule Runtime** > **Security** > **Secure Configuration Properties**   
 * Download `Secure Properties Tool Jar File`  
 ![9](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/35999dab-02af-4165-9364-ab012c2420b3)  
@@ -67,7 +73,7 @@ mulesoft \
 ![13](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/19634fa1-2be3-4397-939f-cfbf67153c21)  
 
   
-## Test the Application Locally 
+## 3. Test the Application Locally 
 * Right-click on **hellomule** > **Run As** > **Run Configurations** > **Environment**  
 * Click on Add, then add `secure.key` as the name and `MyMuleSoftKey` as the value. Click on Apply, then select Run  
 ![14](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/93d829f3-b0f6-4b94-8a41-d4d77503420c)  
@@ -77,7 +83,7 @@ mulesoft \
 ![16](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/1c9df662-9f00-4869-a14e-22caf37f9682)  
 
 
-## Deploy to CloudHub
+## 4. Deploy to CloudHub
 * Open `mule-artifact.json` file, then add `“secureProperties”: [“secure.key”]` to hide our `secure.key` property in the Runtime Manager  
 ![17](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/8231115d-d7ef-4d6a-81a1-1ee058c9192e)  
 * Right-click in **hellomule** > **Anypoint Platform** > **Deploy to CloudHub**  
