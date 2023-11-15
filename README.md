@@ -13,7 +13,7 @@ It is required:
 5. [Run the Application Locally](#5-run-the-application-locally)
 6. [Deploy the Project into CloudHub](#6-deploy-the-project-into-cloudhub)
    
-## Getting Started
+## 1. Getting Started
 **MuleSoft’s IDE**  
 * Download Anypoint Studio (MeluSoft’s IDIE) from https://www.mulesoft.com/lp/dl/anypoint-mule-studio  
 * Extract the downloaded folder **close to your root** to avoid possible errors  
@@ -26,13 +26,13 @@ It is required:
 **CloudHub**  
 * Sign up for Anypoint Platform from https://anypoint.mulesoft.com/login/signup to host your applications on CloudHub.   
 
-## 1. Create a Project in Anypoint Studio
+## 2. Create a Project in Anypoint Studio
 *	Create a new Mule project by clicking on **File** > **New** > **Mule Project**, then enter the project name **HelloMule** and click on Finish  
 ![1 0](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/2d2cf52b-f5d3-493f-ac31-14eb909f3033)  
 ![1 1](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/e78ccf3e-1f3c-4cf8-b7d4-ede5c627b43e)  
 *	A new blank project called **hellomule** is created  
   
-## 2. HTTP Listener Connector
+## 3. HTTP Listener Connector
 *	Go to the Mule Palette, select the HTTP module, then drag and drop the Listener into the canvas area  
 ![1 3](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/68ac443d-2ea2-47ee-88db-c4a5b034eca4)    
 *	Select the new hellomuleFlow from de canvas area and click on the HTTP Listener. Go to the Properties Editor area, then go into the Basic Settings configuration and click the Green Plus button  
@@ -44,13 +44,13 @@ It is required:
 * Do not forget to save the project constantly to see reflected the changes  
 ![1 7](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/140306d4-9d3f-4ed6-9ad2-0d3e28b25341)  
 
-## 3. Set Payload
+## 4. Set Payload
 * Go to the Mule Palette, select the Core module, then drag and drop the **Set Payload** into the hellomuleFlow that already exists in the canvas area  
 ![1 8 - Copy](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/94a5001e-7e06-411f-a9eb-07a5eb1ac647)  
 * Go to the Properties Editor area, then go into the Settings section, check out the fx button, and enter the value **Hello Mule**  
 ![1 6](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/7bc548f5-138d-43ed-bc70-548de5410836)    
 
-## 4. Run the Application Locally
+## 5. Run the Application Locally
 * Run it locally by right-clicking into the Canvas area and select **Run project hellomule**  
 ![1 8](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/e9810627-28ee-48bb-b6a9-b0b046aea280)  
 * Look for the **DEPLOYED STATUS** in the console, meaning that the application is running and does not contain errors  
@@ -62,7 +62,7 @@ It is required:
 * Go to the console and click the **Red** button to stop the application 
 ![1 12](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/845f9f0b-852a-4661-bf12-541682b64f9e)  
 
-## 5. Deploy the Project into CloudHub 
+## 6. Deploy the Project into CloudHub 
 * Go to the package explorer and right-click on the project’s root (hellomule), then select **Anypoint Platform** > **Deploy to CloudHub**  
 ![1 13](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/fefb2ef9-e846-4f32-8747-66e6ba956044)  
 * Enter username and password for Anypoint Platform account  
