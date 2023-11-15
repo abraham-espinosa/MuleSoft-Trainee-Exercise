@@ -3,6 +3,7 @@ Apply best practices to keep global elements. Set up the hardcoded values into p
 It is required:  
 * MuleSoft's IDE - https://www.mulesoft.com/lp/dl/anypoint-mule-studio  
 * REST Client Postman - https://www.postman.com/downloads/  
+* Previous code from **exercise1/hello-mule** branch
 
 ## Table Content 
 1. [Set Up Global Elements](#1-Set-Up-Global-Elements)
