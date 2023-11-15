@@ -1,5 +1,5 @@
 # Exercise 1 - Hello Mule
-Build your first Hello Mule application using Anypoint Studio, and deplyo it locally and to CloudHub.  
+Build your first Hello Mule application using Anypoint Studio, and deploy it locally and to CloudHub.  
 It is required:  
 * MuleSoft's IDE - https://www.mulesoft.com/lp/dl/anypoint-mule-studio  
 * REST Client Postman - https://www.postman.com/downloads/  
