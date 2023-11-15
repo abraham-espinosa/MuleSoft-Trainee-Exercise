@@ -24,15 +24,15 @@ It is required:
 ![4](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/e0287a32-5685-4305-96f6-9235440ba79e)
 
 ## 3. Generate Credentials 
-* Go to Anypoint Platform and select Exchange 
+* Go to **Anypoint Platform** and select **Exchange** 
 * Select **hellomuleapi** from the Assets section, then on the right side click on **Request Access**  
 ![5](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/63557b2d-dd4a-4ec9-8dfb-46335f0933ac)  
 ![6](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/432e1fe0-34d8-4655-bfd8-13d4335d0a61)  
 * Choose the API instance that was recently created  
 ![7](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/1e93bbd6-8d29-4d48-9b3e-2f434c45a827)  
-* Select Create a new application for the Application field if it is the first time you have selected it. Enter hellomuleapp as the Application Name and select Create  
+* Select Create a new application for the Application field if it is the first time you have selected it. Enter `hellomuleapp` as the Application Name and select Create  
 ![8](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/2ed05a87-a48b-45f9-857b-48a263555990)  
 * Select hellomuleapp as the Application and click on Request Access    
 ![9](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/4cbaef10-e7b6-406e-81c4-5e0c5a6de2a4)  
-* Copy the Client ID and Client Secret, then past the Client ID as Username and Client Secret as Password in the Auth tab (Basic Auth) from Postman and select Send  
+* Copy the `Client ID` and `Client Secret`, then past the `Client ID` as Username and `Client Secret` as Password in the Auth tab (Basic Auth) from Postman and select Send  
 ![10](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/72a4f29d-9d3c-49e7-a156-6e5f7d1136bc)
