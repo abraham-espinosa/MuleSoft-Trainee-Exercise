@@ -4,7 +4,7 @@ It is required:
 * MuleSoft's IDE - https://www.mulesoft.com/lp/dl/anypoint-mule-studio
 * REST Client Postman - https://www.postman.com/downloads/
 * CloudHub account - https://anypoint.mulesoft.com/login/signup
-* Previous code from exercise2/global-elements-properties branch
+* Previous code from `exercise3/secure-properties` branch
 
 ## Create a New API Using API Manager  
 * Go to **Anypoint Platform** > **API Manager**  
