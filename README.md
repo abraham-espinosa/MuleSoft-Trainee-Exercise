@@ -6,7 +6,14 @@ It is required:
 * CloudHub account - https://anypoint.mulesoft.com/login/signup
 * Previous code from `exercise3/secure-properties` branch
 
-## Create a New API Using API Manager  
+## Table Content 
+1. [Create a New API Using API Manager](#1-Create-a-New-API-Using-API-Manager)
+2. [Add api.id property](#2-Add-apiid-property)
+3. [Test the Application Locally](#3-Test-the-Application-Locally)
+4. [Deploy to CloudHub](#4-Deploy-to-CloudHub)
+
+
+## 1. Create a New API Using API Manager  
 * Go to **Anypoint Platform** > **API Manager**  
 * Click on **Add API** > **Add new API**  
 * Select `Mule Gateway`, `Basic Endpoint`, and `Mule 4`  
@@ -19,7 +26,7 @@ It is required:
 * Find the **Autodiscovery ID** as "API Instance ID", then save it (later it will be used)  
 ![4](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/02ab4ea9-e527-4598-ae17-43a503a662cd)  
 
-## Add api.id property 
+## 2. Add api.id property 
 * Go back to Anypoint Studio, then open `local.properties` and `dev.properties` files to add `api.id=19110759` as a new property for both files  
 ![5](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/59e2154f-650d-4b58-8cb3-8983a6b4730d)  
 * Create API Autodiscovery element from `global.xml` in the Global Elements tab  
@@ -34,11 +41,11 @@ It is required:
 * Paste the `Client Id` and `Client Secret` from Sandbox page, then select validate. After a green check appears, click on Apply and Close  
 ![9](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/61f90871-b2e7-4b26-ae05-0c414d506b51)  
 
-## Test the Application Locally
+## 3. Test the Application Locally
 * Run project hellomule. Test the application using a REST Client platform (Postman) `localhost:8081/hellomule` as the URL to see if everything is okay  
 ![10](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/a5404411-773b-4e41-bffe-64c9a3623fbd)  
 
-## Deploy to CloudHub
+## 4. Deploy to CloudHub
 Open the `mule-artifact.json` file, then add secure properties for `client_id` and `client_secret`:  
 ```
 {
