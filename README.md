@@ -6,11 +6,11 @@ It is required:
 * CloudHub account - https://anypoint.mulesoft.com/login/signup  
 
 ## Table Content 
-1. [Create a Project in Anypoint Studio](#1.-create-a-project-in-anypoint-studio)
-2. [HTTP Listener Connector](#2.-http-listener-connector)
-3. [Set Payload](#3.-set-payload)
-4. [Run the Application Locally](#4.-run-the-application-locally)
-5. [Deploy the Project into CloudHub](#5.-deploy-the-project-into-cloudhub)
+1. [Create a Project in Anypoint Studio](#1-create-a-project-in-anypoint-studio)
+2. [HTTP Listener Connector](#2-http-listener-connector)
+3. [Set Payload](#3-set-payload)
+4. [Run the Application Locally](#4-run-the-application-locally)
+5. [Deploy the Project into CloudHub](#5-deploy-the-project-into-cloudhub)
 
 ## 1. Create a Project in Anypoint Studio
 *	Create a new Mule project by clicking on **File** > **New** > **Mule Project**, then enter the project name **HelloMule** and click on Finish  
