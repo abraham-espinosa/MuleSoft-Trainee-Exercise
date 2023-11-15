@@ -6,11 +6,25 @@ It is required:
 * CloudHub account - https://anypoint.mulesoft.com/login/signup  
 
 ## Table Content 
-1. [Create a Project in Anypoint Studio](#1-create-a-project-in-anypoint-studio)
-2. [HTTP Listener Connector](#2-http-listener-connector)
-3. [Set Payload](#3-set-payload)
-4. [Run the Application Locally](#4-run-the-application-locally)
-5. [Deploy the Project into CloudHub](#5-deploy-the-project-into-cloudhub)
+1. [Getting Started](#1-Getting-Started)
+2. [Create a Project in Anypoint Studio](#2-create-a-project-in-anypoint-studio)
+3. [HTTP Listener Connector](#3-http-listener-connector)
+4. [Set Payload](#4-set-payload)
+5. [Run the Application Locally](#5-run-the-application-locally)
+6. [Deploy the Project into CloudHub](#6-deploy-the-project-into-cloudhub)
+   
+## Getting Started
+**MuleSoft’s IDE**  
+* Download Anypoint Studio (MeluSoft’s IDIE) from https://www.mulesoft.com/lp/dl/anypoint-mule-studio  
+* Extract the downloaded folder **close to your root** to avoid possible errors  
+* Open AnypointStudio application.  
+![0000](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/acd9afa9-d68a-4fad-beb6-861e808c4fad)  
+
+**Postman**  
+* Download and install a REST client platform as Postman from https://www.postman.com/downloads  ]
+   
+**CloudHub**  
+* Sign up for Anypoint Platform from https://anypoint.mulesoft.com/login/signup to host your applications on CloudHub.   
 
 ## 1. Create a Project in Anypoint Studio
 *	Create a new Mule project by clicking on **File** > **New** > **Mule Project**, then enter the project name **HelloMule** and click on Finish  
