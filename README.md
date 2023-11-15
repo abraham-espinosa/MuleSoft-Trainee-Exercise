@@ -3,7 +3,7 @@ Apply best practices to keep global elements. Set up the hardcoded values into p
 It is required:  
 * MuleSoft's IDE - https://www.mulesoft.com/lp/dl/anypoint-mule-studio  
 * REST Client Postman - https://www.postman.com/downloads/  
-* Previous code from **exercise1/hello-mule** branch
+* Previous code from `exercise1/hello-mule` branch
 
 ## Table Content 
 1. [Set Up Global Elements](#1-Set-Up-Global-Elements)
@@ -15,9 +15,9 @@ It is required:
 *	Go to the package explorer and right-click on the project’s root (hellomule), then select **New**** > **Mule Configuration File**. Enter `global.xml` as the file name  
 *	Go to the configuration xml tab from the hellomule.xml file, then cut the **http listener config**  
 ![1](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/a0fbac21-8faf-4935-b936-a29b43a76802)  
-* Paste it into the global.xml file, inside of the **<mule> tag**  
+* Paste it into the `global.xml` file, inside of the `<mule>` tag  
 ![2](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/240170dd-fa48-4e84-9d6e-d705235f4dd0)  
-*	Click on Save All, then go to the Global Elements tab from the global.xml file to see the HTTP Listener config  
+*	Click on Save All, then go to the Global Elements tab from the `global.xml` file to see the HTTP Listener config  
 ![3](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/ecae5148-b9d0-4b1b-87f9-ffcbf121045b)  
 
 ## 2. Set Up Properties 
@@ -58,7 +58,7 @@ http.listener.port=8081
 *	Run project hellomule from canvas to deploy the application in local  
 ![15](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/072c8135-db35-4c04-a2dc-483c0a16da21)  
 ![16](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/6ef3cfde-9e71-488a-ac3e-45ce42360147)  
-*	Test the application using a REST Client platform (Postman) using 0.0.0.0:8081/hellomule or localhost:8081/hellomule as the URL. Click on Send to see the response Hello Mule and a 200 OK status  
+*	Test the application using a REST Client platform (Postman) using `localhost:8081/hellomule` as the URL. Click on Send to see the response `Hello Mule` and a 200 OK status  
 ![17](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/99e2078f-1084-48dc-93f1-709cab53a805)  
 
 
