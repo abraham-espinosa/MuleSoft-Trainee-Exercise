@@ -4,7 +4,7 @@ It is required:
 * MuleSoft's IDE - https://www.mulesoft.com/lp/dl/anypoint-mule-studio  
 * REST Client Postman - https://www.postman.com/downloads/  
 * CloudHub account - https://anypoint.mulesoft.com/login/signup
-* Previous code from **exercise2/global-elements-properties** branch
+* Previous code from `exercise2/global-elements-properties` branch
 
 # Set Up Global Elements
 * Go to the package explorer and right-click on **src/main/resources** > **New** > **File**, then enter `local.secure.properties` as the file name, click on Finish  
