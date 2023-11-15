@@ -55,7 +55,7 @@ http.listener.port=8081
 ![14](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/637667d7-0bd3-4407-b454-677ae47f22df)  
 
 ## 4. Test the Application 
-*	Run project hellomule from canvas to deploy the application in local  
+*	Run project `hellomule` from canvas to deploy the application in local  
 ![15](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/072c8135-db35-4c04-a2dc-483c0a16da21)  
 ![16](https://github.com/abraham-espinosa/mulesoft-trainee-exercise/assets/60346436/6ef3cfde-9e71-488a-ac3e-45ce42360147)  
 *	Test the application using a REST Client platform (Postman) using `localhost:8081/hellomule` as the URL. Click on Send to see the response `Hello Mule` and a 200 OK status  
